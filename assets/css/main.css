@@ -1,0 +1,177 @@
+/* CSS - Greg P Church */
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto-Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+a {
+  color: rgb(223, 89, 12);
+}
+
+a:hover {
+  transition: 0.3s;
+  color: rgb(223, 89, 12);
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top right, #666, #ffff);
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 20px;
+  border: 8px double rgb(223, 89, 12);
+}
+
+.small-text {
+  text-align: justify;
+}
+
+.pow {
+  align-content: center;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a {
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+}
+
+/* .logo a.scroll {
+  color: #fff;
+} */
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 50px;
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
+}
+
+nav ul {
+  line-height: 50px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #aaa;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 30px;
+  font-weight: 500;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+}
+
+nav.scroll ul li a {
+  color: #fff;
+}
+
+.menu-icon {
+  line-height: 50px;
+  width: 100%;
+  background: rgb(71, 126, 245);
+  text-align: right;
+  padding: 15px 24px 8px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.content {
+  width: 90%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    color: #fff;
+    margin: 10px 0 0 15px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: rgb(71, 126, 245);
+    padding-right: 0;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    /* box-sizing: border-box; */
+    width: 100%;
+    padding: 24px;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #fff;
+  }
+  nav ul li a {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
