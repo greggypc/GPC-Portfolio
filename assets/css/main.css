@@ -1,6 +1,6 @@
 /* CSS - Greg P Church */
 
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
 
 * {
   box-sizing: border-box;
@@ -14,17 +14,17 @@ body {
 }
 
 body {
+  background-color: #e9e9e9;
   font-family: 'Roboto-Condensed', sans-serif;
-  font-weight: lighter;
 }
 
 a {
-  color: rgb(223, 89, 12);
+  color: #f25d27;
 }
 
 a:hover {
-  transition: 0.3s;
-  color: rgb(223, 89, 12);
+  transition: 0.2s;
+  color: #f25d27;
 }
 
 header {
@@ -41,7 +41,7 @@ header {
   float: left;
   shape-outside: circle();
   margin: 20px;
-  border: 11px double rgb(223, 89, 12);
+  border: 11px double #f25d27;
   /* opacity: 0.8; */
 }
 
@@ -54,10 +54,17 @@ header {
   width: 80%;
   height: 100vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
+
+/* .middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+} */
 
 .logo a {
   font-family: 'Roboto Slab', serif;
@@ -129,11 +136,64 @@ nav.scroll ul li a {
 }
 
 .content {
-  width: 90%;
+  width: 80%;
   margin: 4em auto;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
+  font-weight: 300;
+}
+
+.resume-container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
+  font-family: 'Merriweather', serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-greg {
+  font-size: 38px;
+  color: #f25d27;
+  font-weight: 700;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.resume-dev {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.resume-right {
+  margin-left: auto;
+  text-align: right;
+  list-style: none;
+  align-items: flex-start;
+}
+
+.resume-section-header {
+  color: #f25d27;
+  font-size: 24px;
+}
+
+.resume-small-grey {
+  color: #666;
+  font-size: 18px;
+}
+
+.hr {
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #f25d27;
+  margin-left: 1em auto;
+  padding: 3px;
 }
 
 footer {
