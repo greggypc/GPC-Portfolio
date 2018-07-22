@@ -41,14 +41,15 @@ header {
   float: left;
   shape-outside: circle();
   margin: 20px;
-  border: 8px double rgb(223, 89, 12);
+  border: 11px double rgb(223, 89, 12);
+  /* opacity: 0.8; */
 }
 
 .small-text {
   text-align: justify;
 }
 
-.pow {
+.hero {
   align-content: center;
   width: 80%;
   height: 100vh;
