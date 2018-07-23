@@ -1,5 +1,9 @@
 /* CSS - Greg P Church */
 
+/* brown #5E503F
+blue #2F394D
+ecru #E0DFD5 */
+
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
 
 * {
@@ -19,7 +23,7 @@ body {
 }
 
 a {
-  color: #f25d27;
+  color: #2f394d;
 }
 
 a:hover {
@@ -30,10 +34,10 @@ a:hover {
 header {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to top right, #666, #ffff);
+  background: linear-gradient(to top right, #2f394d, #e0dfd5);
   /* background-size: cover; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .image {
@@ -41,7 +45,7 @@ header {
   float: left;
   shape-outside: circle();
   margin: 20px;
-  border: 11px double #f25d27;
+  border: 11px double #5e503f;
   /* opacity: 0.8; */
 }
 
@@ -71,13 +75,13 @@ header {
   text-decoration: none;
   line-height: 60px;
   position: fixed;
-  float: left;
-  margin: 16px 46px;
-  color: #fff;
+  justify-items: flex-start;
+  margin: 12px 46px;
+  color: #2f394d;
   font-weight: bold;
   font-size: 30px;
-  letter-spacing: 1px;
-  text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+  /* letter-spacing: 1px; */
+  /* text-shadow: 3px 3px 3px rgba(150, 150, 150, 1); */
 }
 
 /* .logo a.scroll {
@@ -105,7 +109,7 @@ nav ul {
 }
 
 nav.black ul {
-  background: #aaa;
+  background: #2f394d;
 }
 
 nav ul li {
@@ -116,7 +120,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #666;
+  color: #2f394d;
   font-size: 16px;
 }
 
