@@ -5,7 +5,7 @@ blue #2F394D
 ecru #E0DFD5 
 orange #f25d27    rgb(242, 93, 39)
 
-dark orange  #a33a15  */
+dark orange  #d85322  */
 
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
 
@@ -26,19 +26,25 @@ body {
 }
 
 a {
-  color: #a33a15;
+  color: #e0dfd5;
   text-decoration: none;
 }
 
 a:hover {
   transition: 0.2s;
-  color: #d85322;
+  color: #a33a15;
 }
 
 header {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right top, #2f394d, #485b6d, #737c8c, #e0dfd5);
+  /* background-image: linear-gradient(to right top, #2f394d, #485b6d, #737c8c, #e0dfd5); */
+  background: linear-gradient(
+    to top right,
+    #29323c,
+    #627486
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
   justify-content: center;
 }
@@ -103,7 +109,7 @@ header {
   position: fixed;
   float: left;
   margin: 12px 46px;
-  color: #2f394d;
+  color: #e0dfd5;
   font-weight: bold;
   font-size: 30px;
   /* letter-spacing: 1px; */
@@ -135,7 +141,7 @@ nav ul {
 }
 
 nav.black ul {
-  background: #2f394d;
+  background: #29323c;
 }
 
 nav ul li {
@@ -147,7 +153,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #2f394d;
+  color: #e0dfd5;
   /* font-size: 16px; */
 }
 
