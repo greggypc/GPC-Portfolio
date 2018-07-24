@@ -2,7 +2,10 @@
 
 /* brown #5E503F
 blue #2F394D
-ecru #E0DFD5 */
+ecru #E0DFD5 
+orange #f25d27    rgb(242, 93, 39)
+
+dark orange  #a33a15  */
 
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
 
@@ -23,12 +26,13 @@ body {
 }
 
 a {
-  color: #2f394d;
+  color: #a33a15;
+  text-decoration: none;
 }
 
 a:hover {
   transition: 0.2s;
-  color: #f25d27;
+  color: #d85322;
 }
 
 header {
@@ -37,7 +41,7 @@ header {
   background: linear-gradient(to top right, #2f394d, #e0dfd5);
   /* background-size: cover; */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .image {
@@ -45,7 +49,7 @@ header {
   float: left;
   shape-outside: circle();
   margin: 20px;
-  border: 11px double #5e503f;
+  border: 11px double #a33a15;
   /* opacity: 0.8; */
 }
 
@@ -75,7 +79,7 @@ header {
   text-decoration: none;
   line-height: 60px;
   position: fixed;
-  justify-items: flex-start;
+  float: left;
   margin: 12px 46px;
   color: #2f394d;
   font-weight: bold;
@@ -84,9 +88,9 @@ header {
   /* text-shadow: 3px 3px 3px rgba(150, 150, 150, 1); */
 }
 
-/* .logo a.scroll {
-  color: #fff;
-} */
+.logo a.scroll {
+  color: #e0dfd5;
+}
 
 nav {
   position: fixed;
@@ -125,7 +129,7 @@ nav ul li a {
 }
 
 nav.scroll ul li a {
-  color: #fff;
+  color: #e0dfd5;
 }
 
 .menu-icon {
