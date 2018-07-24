@@ -108,6 +108,8 @@ header {
 
 .main-statement {
   color: #e0dfd5;
+  text-shadow: 3px 3px 3px #29323c;
+  letter-spacing: 0.5px;
 }
 
 /* .middle {
@@ -252,6 +254,12 @@ nav.scroll ul li a:hover {
   border-top: 2px solid #f25d27;
   margin-left: 1em auto;
   padding: 3px;
+}
+
+.vertical {
+  border-left: 3px solid #29323c;
+  margin: 0 10px 0 4px;
+  transform: rotate(45deg);
 }
 
 footer {
