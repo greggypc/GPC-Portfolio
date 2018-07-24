@@ -119,17 +119,23 @@ nav.black ul {
 nav ul li {
   display: inline-block;
   padding: 16px 30px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #2f394d;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 nav.scroll ul li a {
   color: #e0dfd5;
+}
+
+nav.scroll ul li a:hover {
+  transition: 0.2s;
+  color: #d85322;
 }
 
 .menu-icon {
