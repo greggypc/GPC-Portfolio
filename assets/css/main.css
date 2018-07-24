@@ -27,8 +27,12 @@ body {
   font-family: 'Roboto-Condensed', sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 a {
-  color: #e0dfd5;
+  color: #29323c;
   text-decoration: none;
 }
 
@@ -172,7 +176,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #e0dfd5;
-  /* font-size: 16px; */
+  font-weight: 400;
 }
 
 nav.scroll ul li a {
@@ -187,7 +191,7 @@ nav.scroll ul li a:hover {
 .menu-icon {
   line-height: 50px;
   width: 100%;
-  background: rgb(71, 126, 245);
+  background: #29323c;
   text-align: right;
   padding: 15px 24px 8px;
   cursor: pointer;
@@ -208,7 +212,7 @@ nav.scroll ul li a:hover {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   font-family: 'Merriweather', serif;
   display: flex;
@@ -239,11 +243,18 @@ nav.scroll ul li a:hover {
 .resume-section-header {
   color: #f25d27;
   font-size: 24px;
+  margin-bottom: 3px;
 }
 
 .resume-small-grey {
   color: #666;
   font-size: 18px;
+}
+
+.ulist {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .hr {
@@ -278,7 +289,7 @@ footer {
 
   nav ul {
     max-height: 0px;
-    background: rgb(71, 126, 245);
+    background: #29323c;
     padding-right: 0;
   }
 
