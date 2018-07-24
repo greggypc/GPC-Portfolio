@@ -8,9 +8,11 @@ $(window).on('scroll', function() {
   if ($(window).scrollTop()) {
     $('nav').addClass('black scroll');
     $('.logo a').addClass('scroll');
+    $('.image').addClass('spin');
   } else {
     $('nav').removeClass('black scroll');
     $('.logo a').removeClass('scroll');
+    $('.image').removeClass('spin');
   }
 });
 

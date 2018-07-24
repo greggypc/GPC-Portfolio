@@ -49,8 +49,22 @@ header {
   float: left;
   shape-outside: circle();
   margin: 20px;
-  border: 11px double #a33a15;
+  border: 9px solid #a33a15;
+
   /* opacity: 0.8; */
+}
+
+.spin {
+  animation: spin 0.3s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359.999deg);
+  }
 }
 
 .small-text {
