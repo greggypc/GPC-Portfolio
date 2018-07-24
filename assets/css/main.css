@@ -4,8 +4,10 @@
 blue #2F394D
 ecru #E0DFD5 
 orange #f25d27    rgb(242, 93, 39)
+dark orange  #d85322
 
-dark orange  #d85322  */
+light blue-grey #627486  
+dark blue-grey  #29323c  */
 
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
 
@@ -35,16 +37,25 @@ a:hover {
   color: #a33a15;
 }
 
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 33px;
+  color: #29323c;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
 header {
   width: 100%;
   height: 100vh;
   /* background-image: linear-gradient(to right top, #2f394d, #485b6d, #737c8c, #e0dfd5); */
-  background: linear-gradient(
-    to top right,
-    #29323c,
-    #627486
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(to top right, #29323c, #627486);
   display: flex;
   justify-content: center;
 }
@@ -53,8 +64,9 @@ header {
   border-radius: 50%;
   float: left;
   shape-outside: circle();
-  margin: 20px;
+  margin: 22px;
   border: 9px solid #a33a15;
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
 
   /* opacity: 0.8; */
 }
@@ -92,6 +104,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-statement {
+  color: #e0dfd5;
 }
 
 /* .middle {
