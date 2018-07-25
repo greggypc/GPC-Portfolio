@@ -35,26 +35,14 @@ $(document).ready(function() {
   }
 
   function createCard(project) {
-    var newProject = $('<div>');
-    newProject.addClass('panel panel-default');
-    var newProjectHeading = $('<div>');
-    newProjectHeading.addClass('panel-heading');
+    let newProject = `
+        <article>
+          <div class="proj-title">${project.name}</div>
+          <div class="proj-description">${project.description}</div>
+          <div class="proj-tech">${project.tech}</div>
+          <div class="proj-url"><a href='${project.url}' target='_blank'>see it</a></div>
+        </article>`;
 
-    var newProjectTitle = $('<h2>');
-
-    var newProjectBody = $('<div>');
-    newProjectBody.addClass('panel-body');
-    var newProjectBody = $('<p>');
-    newProjectTitle.text(project.name + ' ');
-    newProjectBody.text(project.description);
-    newProjectBody.append(project.tech);
-
-    var formattedDate = new Date(project.url);
-    newProjectHeading.append(newProjectTitle);
-    newProjectBody.append(newProjectBody);
-    newProject.append(newProjectHeading);
-    newProject.append(newProjectBody);
-    newProject.data('project', project);
     return newProject;
   }
 
