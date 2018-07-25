@@ -35,27 +35,27 @@ $(document).ready(function() {
   }
 
   function createCard(project) {
-    var newPostPanel = $('<div>');
-    newPostPanel.addClass('panel panel-default');
-    var newPostPanelHeading = $('<div>');
-    newPostPanelHeading.addClass('panel-heading');
+    var newProject = $('<div>');
+    newProject.addClass('panel panel-default');
+    var newProjectHeading = $('<div>');
+    newProjectHeading.addClass('panel-heading');
 
-    var newPostTitle = $('<h2>');
+    var newProjectTitle = $('<h2>');
 
-    var newPostPanelBody = $('<div>');
-    newPostPanelBody.addClass('panel-body');
-    var newPostBody = $('<p>');
-    newPostTitle.text(project.name + ' ');
-    newPostBody.text(project.description);
-    newPostBody.append(project.tech);
+    var newProjectBody = $('<div>');
+    newProjectBody.addClass('panel-body');
+    var newProjectBody = $('<p>');
+    newProjectTitle.text(project.name + ' ');
+    newProjectBody.text(project.description);
+    newProjectBody.append(project.tech);
 
     var formattedDate = new Date(project.url);
-    newPostPanelHeading.append(newPostTitle);
-    newPostPanelBody.append(newPostBody);
-    newPostPanel.append(newPostPanelHeading);
-    newPostPanel.append(newPostPanelBody);
-    newPostPanel.data('project', project);
-    return newPostPanel;
+    newProjectHeading.append(newProjectTitle);
+    newProjectBody.append(newProjectBody);
+    newProject.append(newProjectHeading);
+    newProject.append(newProjectBody);
+    newProject.data('project', project);
+    return newProject;
   }
 
   function displayEmpty() {
