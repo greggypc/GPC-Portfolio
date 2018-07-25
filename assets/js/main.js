@@ -1,15 +1,39 @@
 $(document).ready(function() {
   const projectContainer = $('.project-container');
   const dataURL = './projects.json';
+  var projects;
 
   $.ajax({
     url: dataURL,
     method: 'GET'
   })
-    .then(response => {
-      console.log(response);
+    .then(data => {
+      console.log(data);
+      projects = data;
+      if (!projects || !projects.length) {
+        displayEmpty();
+      } else {
+        loadProjects();
+      }
     })
-    .catch(err => res.status(422).json(err));
+    .catch(err => {
+      throw new Error(err.message);
+    });
+
+  function loadProjects() {
+    console.log('now in function loadProjects' + projects);
+
+    projectContainer.empty();
+    let projectsToAdd = [];
+    projects.map(project => {
+      projectsToAdd.push(createCard(project));
+      console.log(project);
+    });
+  }
+
+  function createCard(project) {
+    let x = 9;
+  }
 
   $('.menu-icon').on('click', function() {
     $('nav ul').toggleClass('showing');
