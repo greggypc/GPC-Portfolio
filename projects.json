@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Dolo I",
+    "description": "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
+    "tech": ["MySQL", "Express.js", "Sequelize"],
+    "url": "https://github.com/greggypc/Dolo-I"
+  },
+  {
+    "name": "Dolo II",
+    "description": "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
+    "tech": ["MySQL", "Express.js", "Sequelize", "React.js"],
+    "url": "https://github.com/greggypc/Dolo"
+  }
+]
