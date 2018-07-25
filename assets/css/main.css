@@ -9,7 +9,7 @@ dark orange  #d85322
 light blue-grey #627486  
 dark blue-grey  #29323c  */
 
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Playfair+Display|Roboto+Condensed|Roboto+Slab|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro|Open+Sans|Roboto+Slab|Merriweather');
 
 * {
   box-sizing: border-box;
@@ -24,7 +24,7 @@ body {
 
 body {
   background-color: #e0dfd5;
-  font-family: 'Roboto-Condensed', sans-serif;
+  font-family: 'Open-Sans', sans-serif;
 }
 
 p {
@@ -126,6 +126,7 @@ header {
 
 .logo a {
   font-family: 'Roboto Slab', serif;
+  letter-spacing: 1px;
   text-decoration: none;
   line-height: 60px;
   position: fixed;
@@ -202,10 +203,10 @@ nav.scroll ul li a:hover {
 .content {
   width: 80%;
   margin: 4em auto;
-  font-size: 20px;
+  /* font-size: 20px;
   line-height: 30px;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 300; */
 }
 
 .resume-container {
