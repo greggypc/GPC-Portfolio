@@ -11,6 +11,8 @@ $(document).ready(function() {
       console.log(data);
       projects = data;
       if (!projects || !projects.length) {
+        console.log(`no json!`);
+
         displayEmpty();
       } else {
         loadProjects();
@@ -29,10 +31,41 @@ $(document).ready(function() {
       projectsToAdd.push(createCard(project));
       console.log(project);
     });
+    projectContainer.append(projectsToAdd);
   }
 
   function createCard(project) {
-    let x = 9;
+    var newPostPanel = $('<div>');
+    newPostPanel.addClass('panel panel-default');
+    var newPostPanelHeading = $('<div>');
+    newPostPanelHeading.addClass('panel-heading');
+
+    var newPostTitle = $('<h2>');
+
+    var newPostPanelBody = $('<div>');
+    newPostPanelBody.addClass('panel-body');
+    var newPostBody = $('<p>');
+    newPostTitle.text(project.name + ' ');
+    newPostBody.text(project.description);
+    newPostBody.append(project.tech);
+
+    var formattedDate = new Date(project.url);
+    newPostPanelHeading.append(newPostTitle);
+    newPostPanelBody.append(newPostBody);
+    newPostPanel.append(newPostPanelHeading);
+    newPostPanel.append(newPostPanelBody);
+    newPostPanel.data('project', project);
+    return newPostPanel;
+  }
+
+  function displayEmpty() {
+    console.log(`we're in displayEmpty - no json!`);
+    projectContainer.empty();
+    const emptyMessage = $('<h2>');
+    emptyMessage.html(
+      'None of my awesome projects loaded? Bummer! You can try again later or head over to my <a href="https://github.com/greggypc" target="_blank">GitHub</a> to check them out.'
+    );
+    projectContainer.append(emptyMessage);
   }
 
   $('.menu-icon').on('click', function() {
