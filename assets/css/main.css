@@ -32,7 +32,7 @@ p {
 }
 
 a {
-  color: #29323c;
+  color: rgb(41, 50, 60);
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ h3 {
 header {
   width: 100%;
   height: 100vh;
-  z-index: 1000;
+  /* z-index: 1000; */
   background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
   display: flex;
   justify-content: center;
@@ -273,6 +273,12 @@ nav.scroll ul li a:hover {
   border-left: 3px solid #29323c;
   margin: 0 10px 0 4px;
   transform: rotate(45deg);
+}
+
+.contact-container {
+  background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
+  padding: 45px;
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
 }
 
 footer {
