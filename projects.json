@@ -1,23 +1,26 @@
 [
   {
     "name": "Dolo I",
-    "description": "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
+    "description":
+      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
     "tech": [" MySQL", " Express.js", " Sequelize"],
     "url": "https://github.com/greggypc/Dolo-I",
     "id": "1"
   },
   {
     "name": "Dolo II",
-    "description": "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
+    "description":
+      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
     "tech": [" MySQL", " Express.js", " Sequelize", " React.js"],
     "url": "https://github.com/greggypc/Dolo",
     "id": "2"
   },
   {
-    "name": "Dolo III",
-    "description": "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
+    "name": "NPR News Scraper",
+    "description":
+      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II). Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
     "tech": [" MySQL", " Express.js", " Sequelize", " React.js"],
-    "url": "https://github.com/greggypc/Dolo",
+    "url": "https://github.com/greggypc/scraped",
     "id": "3"
   }
 ]

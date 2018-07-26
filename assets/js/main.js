@@ -52,7 +52,7 @@ $(document).ready(function() {
             <h4 class="movie-info">Tech: ${project.tech}</h4>
           </div>
           <p class="movie-desc">${project.description}</p>
-          <a class="btn btn-outline" href="${project.url}">See it!</a>
+          <a class="btn btn-outline" href="${project.url}" target="_blank">See it!</a>
 
         </div>
       </div>

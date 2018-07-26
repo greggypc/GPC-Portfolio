@@ -44,7 +44,7 @@ a:hover {
 h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 33px;
-  color: #29323c;
+  color: rgb(41, 50, 60);
 }
 
 h2 {
@@ -58,8 +58,8 @@ h3 {
 header {
   width: 100%;
   height: 100vh;
-  /* background-image: linear-gradient(to right top, #2f394d, #485b6d, #737c8c, #e0dfd5); */
-  background: linear-gradient(to top right, #29323c, #627486);
+  z-index: 1000;
+  background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
   display: flex;
   justify-content: center;
 }
@@ -210,13 +210,14 @@ nav.scroll ul li a:hover {
 }
 
 .resume-container {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   background-color: #fff;
   padding: 40px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   font-family: 'Merriweather', serif;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
