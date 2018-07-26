@@ -271,15 +271,25 @@
           Evaluation
         </h3>
 
-        <form action="POST">
-          <label for="name">Name</label>
-          <input type="text" />
-          <label for="email">Email</label>
-          <input type="text" />
-          <label for="comment">Comment</label>
-          <textarea name="comments" id="contact-comments" cols="30" rows="10"></textarea>
-          <!-- <input type="button" class="btn" value="Submit" /> -->
-          <a class="contact-btn contact-btn-outline" href="#">Submit</a>
+        <form name="contact" method="POST" netlify>
+          <p>
+            <label for="name">Name
+              <input type="text" id="name" placeholder="Your name..." />
+            </label>
+          </p>
+          <p>
+            <label for="email">Email
+              <input type="text" id="email" placeholder="Your email..." />
+            </label>
+          </p>
+          <p>
+            <label for="message">Message
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit" class="contact-btn contact-btn-outline">Send</button>
+          </p>
         </form>
       </div>
 
