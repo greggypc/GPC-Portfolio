@@ -89,10 +89,6 @@ $(document).ready(function() {
     e.preventDefault();
     let aid = $(this).attr('href');
     console.log(aid);
-    if (aid === '#gotoContact') {
-      $('html,body').animate({ scrollTop: $(aid).offset().top - 80 }, 'slow');
-    } else {
-      $('html,body').animate({ scrollTop: $(aid).offset().top - 120 }, 'slow');
-    }
+    $('html,body').animate({ scrollTop: $(aid).offset().top - 120 }, 'slow');
   });
 });

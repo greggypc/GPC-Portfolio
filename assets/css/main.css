@@ -285,19 +285,17 @@ nav.scroll ul li a:hover {
 
 .contact-body {
   justify-content: flex-start;
-  width: 50%;
-  /* margin: 10px; */
-  padding: 20px;
+  padding: 45px;
   background-color: #e0dfd5;
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
 }
 
-.contact-form {
+/* .contact-form {
   justify-content: flex-start;
   width: 50%;
-  /* margin: 10px; */
   padding: 20px;
   background-color: #e0dfd5;
-}
+} */
 
 input[type='text'],
 textarea {
@@ -309,10 +307,35 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #fff;
+  font-size: large;
+}
+
+.contact-btn {
+  margin: 20px 0 20px 0;
+  padding: 0.8em 2em;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #29323c;
+  opacity: 0.75;
+}
+
+.contact-btn-outline {
+  background-color: transparent;
+  border: 3px solid #29323c;
+}
+
+.contact-btn-outline:hover {
+  border-color: #d85322;
+  color: #d85322;
 }
 
 footer {
+  margin-top: 80px;
   padding: 50px;
+  color: #e0dfd5;
+  font-size: 14px;
+  background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
+  box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   display: flex;
   justify-content: center;
 }
