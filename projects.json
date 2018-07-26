@@ -4,7 +4,7 @@
     "description":
       "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
     "tech": [" MySQL", " Express.js", " Sequelize"],
-    "url": "https://github.com/greggypc/Dolo-I",
+    "repoUrl": "https://github.com/greggypc/Dolo-I",
     "id": "1"
   },
   {
@@ -12,15 +12,15 @@
     "description":
       "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
     "tech": [" MySQL", " Express.js", " Sequelize", " React.js"],
-    "url": "https://github.com/greggypc/Dolo",
+    "repoUrl": "https://github.com/greggypc/Dolo",
     "id": "2"
   },
   {
     "name": "NPR News Scraper",
     "description":
-      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II). Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
-    "tech": [" MySQL", " Express.js", " Sequelize", " React.js"],
-    "url": "https://github.com/greggypc/scraped",
+      "Scrape the freshest headlines from NPR News. Save, view and leave comments on your favorite headlines.",
+    "tech": [" MongoDB", " Mongoose", " Cheerio", " Express.js", " Node", " Handlebars"],
+    "repoUrl": "https://github.com/greggypc/scraped",
     "id": "3"
   }
 ]

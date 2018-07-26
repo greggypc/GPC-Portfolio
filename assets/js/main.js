@@ -35,14 +35,6 @@ $(document).ready(function() {
   }
 
   function createCard(project) {
-    // let newProject = `
-    //     <article>
-    //       <div class="proj-title">${project.name}</div>
-    //       <div class="proj-description">${project.description}</div>
-    //       <div class="proj-tech">${project.tech}</div>
-    //       <div class="proj-url"><a href='${project.url}' target='_blank'>see it</a></div>
-    //     </article>`;
-
     let newProject = `
     <div class="movie-card">
       <div class="color-overlay">
@@ -52,7 +44,12 @@ $(document).ready(function() {
             <h4 class="movie-info">Tech: ${project.tech}</h4>
           </div>
           <p class="movie-desc">${project.description}</p>
-          <a class="btn btn-outline" href="${project.url}" target="_blank">See it!</a>
+          <a class="btn btn-outline" href="${
+            project.repoUrl
+          }" target="_blank"><i style="font-size:24px" class="fa">&#xf09b;</i>Repo</a>
+          <a class="btn btn-outline" href="${
+            project.url
+          }" target="_blank"><i style="font-size:24px" class="fa">&#xf0e7;</i>Deployed</a>
 
         </div>
       </div>
