@@ -88,6 +88,11 @@ $(document).ready(function() {
   $('.scrolling-link').click(function(e) {
     e.preventDefault();
     let aid = $(this).attr('href');
-    $('html,body').animate({ scrollTop: $(aid).offset().top - 120 }, 'slow');
+    console.log(aid);
+    if (aid === '#gotoContact') {
+      $('html,body').animate({ scrollTop: $(aid).offset().top - 80 }, 'slow');
+    } else {
+      $('html,body').animate({ scrollTop: $(aid).offset().top - 120 }, 'slow');
+    }
   });
 });

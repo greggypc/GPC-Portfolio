@@ -276,9 +276,39 @@ nav.scroll ul li a:hover {
 }
 
 .contact-container {
+  /* height: 70vh; */
   background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
   padding: 45px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
+  display: flex;
+}
+
+.contact-body {
+  justify-content: flex-start;
+  width: 50%;
+  /* margin: 10px; */
+  padding: 20px;
+  background-color: #e0dfd5;
+}
+
+.contact-form {
+  justify-content: flex-start;
+  width: 50%;
+  /* margin: 10px; */
+  padding: 20px;
+  background-color: #e0dfd5;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 footer {
@@ -320,4 +350,9 @@ footer {
   .menu-icon {
     display: block;
   }
+
+  /* .content {
+    width: 100%;
+    justify-content: center;
+  } */
 }
