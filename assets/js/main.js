@@ -68,7 +68,7 @@ $(document).ready(function() {
     );
     projectContainer.append(emptyMessage);
   }
-
+  // only display hamburger nav on smaller screens
   $('.menu-icon').on('click', function() {
     $('nav ul').toggleClass('showing');
   });

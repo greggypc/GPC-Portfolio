@@ -202,12 +202,11 @@ nav.scroll ul li a:hover {
 
 .menu-icon {
   line-height: 50px;
-  width: 100%;
   background: #29323c;
   text-align: right;
   padding: 15px 24px 8px;
   cursor: pointer;
-  color: #fff;
+  color: #e0dfd5;
   display: none;
 }
 
@@ -503,7 +502,7 @@ footer p {
   }
 
   #scroll-home {
-    right: 10px;
+    right: 5px;
     bottom: 5px;
   }
 }
