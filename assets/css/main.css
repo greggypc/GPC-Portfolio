@@ -88,15 +88,6 @@ header {
   }
 }
 
-/* @keyframes spin {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(0);
-  }
-} */
-
 .small-text {
   text-align: justify;
 }
@@ -121,7 +112,7 @@ header {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
-  padding-right: 4px;
+  padding-right: 1px;
   font-size: 22px;
 }
 
@@ -147,7 +138,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   /* letter-spacing: 1px; */
-  /* text-shadow: 3px 3px 3px rgba(150, 150, 150, 1); */
+  text-shadow: 3px 3px 3px #29323c;
 }
 
 .logo a.scroll {
@@ -190,6 +181,8 @@ nav ul li a {
   text-decoration: none;
   color: #e0dfd5;
   font-weight: 400;
+  text-shadow: 2px 2px 2px #29323c;
+
 }
 
 nav.scroll ul li a {
@@ -258,11 +251,12 @@ nav.scroll ul li a:hover {
   color: #f25d27;
   font-size: 24px;
   margin-bottom: 3px;
+  /* justify-content: flex-start; */
 }
 
 .resume-small-grey {
   color: #666;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .ulist {
@@ -296,7 +290,7 @@ nav.scroll ul li a:hover {
 }
 
 .contact-body {
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   padding: 45px;
   background-color: #e0dfd5;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
@@ -324,11 +318,13 @@ textarea {
 }
 
 .contact-btn {
-  margin: 20px 0 20px 0;
-  padding: 0.8em 2em;
+  margin: 0 0 15px 0;
+  padding: 0.6em 1.5em;
   background-color: rgba(255, 255, 255, 0.2);
   color: #29323c;
   opacity: 0.75;
+  font-size: 18px;
+  float: right;
 }
 
 .contact-btn-outline {
@@ -350,6 +346,11 @@ footer {
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   display: flex;
   justify-content: center;
+}
+
+footer p {
+  opacity: .8;
+  font-weight: 200;
 }
 
 #scroll-home {
