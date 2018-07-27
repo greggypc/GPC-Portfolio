@@ -78,11 +78,21 @@ $(document).ready(function() {
       $('nav').addClass('black scroll');
       $('.logo a').addClass('scroll');
       $('.image').addClass('spin');
+      if ($(window).scrollTop() > 100) {
+        $('#scroll-home').fadeIn();
+      } else {
+        $('#scroll-home').fadeOut();
+      }
     } else {
       $('nav').removeClass('black scroll');
       $('.logo a').removeClass('scroll');
       $('.image').removeClass('spin');
     }
+  });
+
+  $('#scroll-home').click(function(e) {
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false;
   });
 
   $('.scrolling-link').click(function(e) {
