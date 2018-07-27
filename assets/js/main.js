@@ -88,7 +88,6 @@ $(document).ready(function() {
   $('.scrolling-link').click(function(e) {
     e.preventDefault();
     let aid = $(this).attr('href');
-    console.log(aid);
     $('html,body').animate({ scrollTop: $(aid).offset().top - 120 }, 'slow');
   });
 });
