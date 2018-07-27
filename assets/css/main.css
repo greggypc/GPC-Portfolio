@@ -24,7 +24,7 @@ body {
 
 body {
   background-color: #e0dfd5;
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 p {
@@ -47,10 +47,7 @@ h1 {
   color: rgb(41, 50, 60);
 }
 
-h2 {
-  font-family: 'Roboto Slab', serif;
-}
-
+h2,
 h3 {
   font-family: 'Roboto Slab', serif;
 }
@@ -107,7 +104,7 @@ header {
   text-transform: uppercase;
 }
 
-.main-description {
+.main-description-header {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
@@ -115,7 +112,18 @@ header {
   font-size: 22px;
 }
 
+.main-description-text {
+  color: #e0dfd5;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.social {
+  margin-top: 20px;
+}
+
 .social a {
+  margin-top: 20px;
   padding: 0 10px 0 10px;
   color: #e0dfd5;
 }
@@ -217,30 +225,32 @@ nav.scroll ul li a:hover {
   padding: 40px 50px 70px 50px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   font-family: 'Merriweather', serif;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+}
+
+.resume-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .resume-greg {
   font-size: 38px;
   color: #f25d27;
   font-weight: 700;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
 }
 
 .resume-dev {
-  justify-content: flex-start;
-  align-items: flex-end;
+  color: #666;
+  font-size: 18px;
 }
 
-.resume-right {
-  margin-left: auto;
+.resume-right ul {
   text-align: right;
   list-style: none;
-  align-items: flex-start;
+  margin-top: 0;
 }
 
 .resume-section-header {
@@ -441,8 +451,59 @@ footer p {
     font-size: 17px;
   }
 
-  /* .content {
+  .content {
+    width: 95%;
+    /* justify-content: flex-start; */
+  }
+
+  .flex2 {
     width: 100%;
-    justify-content: center;
-  } */
+  }
+
+  .resume-greg {
+    font-size: 28px;
+    color: #f25d27;
+    font-weight: 700;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .resume-dev {
+    width: 100%;
+  }
+
+  .resume-right {
+    justify-content: flex-start;
+  }
+
+  .resume-right ul {
+    text-align: left;
+    list-style: none;
+    justify-content: flex-start;
+  }
+
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-body {
+    padding: 25px;
+    background-color: #e0dfd5;
+    box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
+  }
+
+  .resume-small-grey {
+    color: #666;
+    font-size: 14px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  #scroll-home {
+    right: 30px;
+    bottom: 5px;
+  }
 }

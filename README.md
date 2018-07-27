@@ -1,6 +1,6 @@
 # GPC-Portfolio
 
-## Personal porfolio site for Greg P Church
+## Personal portfolio site for Greg P Church
 
 ## Full Stack JavaScript Developer / Digital Marketer
 
