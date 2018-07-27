@@ -114,13 +114,14 @@ header {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .main-description {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
-  padding-right: 6px;
+  padding-right: 4px;
   font-size: 22px;
 }
 

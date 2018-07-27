@@ -74,15 +74,20 @@ $(document).ready(function() {
   });
 
   $(window).on('scroll', function() {
+    // user leave Top and Nav style changes
     if ($(window).scrollTop()) {
       $('nav').addClass('black scroll');
       $('.logo a').addClass('scroll');
       $('.image').addClass('spin');
+
+      // user scrolls far enought to initailize 'scroll to top' button
       if ($(window).scrollTop() > 100) {
         $('#scroll-home').fadeIn();
       } else {
         $('#scroll-home').fadeOut();
       }
+
+      // user returns to Top and Nav style reverts to original
     } else {
       $('nav').removeClass('black scroll');
       $('.logo a').removeClass('scroll');
