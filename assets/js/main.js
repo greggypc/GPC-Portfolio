@@ -68,9 +68,15 @@ $(document).ready(function() {
     );
     projectContainer.append(emptyMessage);
   }
+
   // only display hamburger nav on smaller screens
   $('.menu-icon').on('click', function() {
     $('nav ul').toggleClass('showing');
+  });
+
+  // toggle close menu on tap
+  $('.menu ul li a').on('click', function() {
+    $('.menu ul').toggleClass('showing');
   });
 
   $(window).on('scroll', function() {

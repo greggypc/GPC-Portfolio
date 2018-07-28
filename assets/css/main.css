@@ -416,6 +416,10 @@ footer p {
     max-height: 34em;
   }
 
+  .hide {
+    display: none;
+  }
+
   nav ul li {
     /* box-sizing: border-box; */
     width: 100%;
