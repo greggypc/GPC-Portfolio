@@ -6,7 +6,13 @@ $(document).ready(function() {
   if (window.XMLHttpRequest) {
     $.ajax({
       url: dataURL,
-      method: 'GET'
+      method: 'GET',
+      cache: false,
+      timeout: 15000,
+      async: true,
+      headers: {
+        'cache-control': 'no-cache'
+      }
     })
       .then(data => {
         console.log(data);
