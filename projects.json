@@ -3,24 +3,52 @@
     "name": "Dolo I",
     "description":
       "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
-    "tech": [" MySQL", " Express.js", " Sequelize"],
+    "tech": [" MySQL", " Express.js", " Sequelize", " Bulma"],
     "repoUrl": "https://github.com/greggypc/Dolo-I",
+    "url": "http://www.dolo.io/",
     "id": "1"
   },
   {
     "name": "Dolo II",
     "description":
       "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
-    "tech": [" MySQL", " Express.js", " Sequelize", " React.js"],
+    "tech": [" MySQL", " Express.js", " Sequelize", " React.js", " JSX", " Bulma"],
     "repoUrl": "https://github.com/greggypc/Dolo",
+    "url": "https://github.com/greggypc/Dolo",
     "id": "2"
   },
   {
     "name": "NPR News Scraper",
     "description":
       "Scrape the freshest headlines from NPR News. Save, view and leave comments on your favorite headlines.",
-    "tech": [" MongoDB", " Mongoose", " Cheerio", " Express.js", " Node", " Handlebars"],
+    "tech": [" MongoDB", " Mongoose", " Cheerio", " Express.js", " Node", " Handlebars", " Bootstrap"],
     "repoUrl": "https://github.com/greggypc/scraped",
+    "url": "https://gentle-fortress-11669.herokuapp.com/",
+    "id": "3"
+  },
+  {
+    "name": "Transformers Memory Game",
+    "description": "React.js built SPA memory game. Click the 12 unique images without clicking an image twice!",
+    "tech": [" React.js", " JSX", " Node.js", " HTML", " CSS"],
+    "repoUrl": "https://github.com/greggypc/react-click-game",
+    "url": "https://greggypc.github.io/react-click-game/",
+    "id": "3"
+  },
+  {
+    "name": "Shopping Experience CLI",
+    "description":
+      "This application implements a simple command line based storefront using the npm inquirer package and MySQL database backend together with the npm mysql package and presents attractive table data via console.table.",
+    "tech": [" MySQL", " Node.js", " Inquirer", " Console.Table", " CSS"],
+    "repoUrl": "https://github.com/greggypc/Bamazon",
+    "url": "https://github.com/greggypc/Bamazon",
+    "id": "3"
+  },
+  {
+    "name": "Notify",
+    "description": "Utilizing the SongKick API, users can see artists, show dates and venues in the city they select.",
+    "tech": [" AJAX", " jQuery", " SongKick API", " Firebase", " Bootstrap", " Handlebars"],
+    "repoUrl": "https://github.com/greggypc/notify",
+    "url": "https://shapyro.github.io/notify",
     "id": "3"
   }
 ]

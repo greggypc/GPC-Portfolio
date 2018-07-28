@@ -5,6 +5,10 @@ $description-color: #e0dfd5;
 $background-image: url(../img/dolo1.png);
 $background-image2: url(../img/dolo2.png);
 $background-image3: url(../img/scraper.png);
+$background-image4: url(../img/transformers.png);
+$background-image5: url(../img/marketplace-cli.png);
+$background-image6: url(../img/notify.png);
+$background-image7: url(../img/notify.png);
 $font-stack-content: 'Montserrat', helvetica, arial, sans-serif;
 $font-stack-header: 'Montserrat', helvetica, arial, sans-serif;
 $secondary-color: #a33a15;
@@ -41,6 +45,22 @@ $secondary-color: #a33a15;
   background-image: $background-image3;
 }
 
+.movie-card:nth-child(4) {
+  background-image: $background-image4;
+}
+
+.movie-card:nth-child(5) {
+  background-image: $background-image5;
+}
+
+.movie-card:nth-child(6) {
+  background-image: $background-image6;
+}
+
+.movie-card:nth-child(7) {
+  background-image: $background-image7;
+}
+
 .color-overlay {
   width: 100%;
   height: 100%;
@@ -68,6 +88,8 @@ $secondary-color: #a33a15;
   }
 
   & .movie-info {
+    font-family: $font-stack-content;
+
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
@@ -83,7 +105,7 @@ $secondary-color: #a33a15;
   }
   & .movie-desc {
     font-weight: 300;
-    // opacity: 0.84;
+    font-family: $font-stack-content;
     margin-bottom: 2em;
     color: $description-color;
   }
@@ -94,6 +116,8 @@ $secondary-color: #a33a15;
   background-color: rgba(255, 255, 255, 0.2);
   color: $title-color;
   opacity: 0.75;
+  font-family: $font-stack-content;
+
   // position: absolute;
   // top: 225px;
 }
@@ -129,7 +153,11 @@ $secondary-color: #a33a15;
 @media (max-width: 600px) {
   .movie-card,
   .movie-card:nth-child(2),
-  .movie-card:nth-child(3) {
+  .movie-card:nth-child(3),
+  .movie-card:nth-child(4),
+  .movie-card:nth-child(5),
+  .movie-card:nth-child(6),
+  .movie-card:nth-child(7) {
     background-position: 50% 0%;
     background-size: cover;
     height: 400px;

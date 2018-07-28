@@ -3,24 +3,26 @@ $(document).ready(function() {
   const dataURL = './projects.json';
   var projects;
 
-  $.ajax({
-    url: dataURL,
-    method: 'GET'
-  })
-    .then(data => {
-      console.log(data);
-      projects = data;
-      if (!projects || !projects.length) {
-        console.log(`no json!`);
-
-        displayEmpty();
-      } else {
-        loadProjects();
-      }
+  if (window.XMLHttpRequest) {
+    $.ajax({
+      url: dataURL,
+      method: 'GET'
     })
-    .catch(err => {
-      throw new Error(err.message);
-    });
+      .then(data => {
+        console.log(data);
+        projects = data;
+        if (!projects || !projects.length) {
+          console.log(`no json!`);
+
+          displayEmpty();
+        } else {
+          loadProjects();
+        }
+      })
+      .catch(err => {
+        throw new Error(err.message);
+      });
+  }
 
   function loadProjects() {
     console.log('now in function loadProjects' + projects);
@@ -47,7 +49,8 @@ $(document).ready(function() {
           <a class="btn btn-outline" href="${
             project.repoUrl
           }" target="_blank"><i style="font-size:24px" class="fa">&#xf09b;</i>Repo</a>
-          <a class="btn btn-outline" href="${
+          
+          <a id="deployed" class="btn btn-outline" href="${
             project.url
           }" target="_blank"><i style="font-size:24px" class="fa">&#xf0e7;</i>Deployed</a>
 
