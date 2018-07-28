@@ -35,9 +35,9 @@
     "id": "3"
   },
   {
-    "name": "Shopping Experience CLI",
+    "name": "CLI Shopping Experience",
     "description":
-      "This application implements a simple command line based storefront using the npm inquirer package and MySQL database backend together with the npm mysql package and presents attractive table data via console.table.",
+      "This application implements a simple command line based storefront using the npm inquirer package and MySQL database backend together and presents attractive table data via console.table.",
     "tech": [" MySQL", " Node.js", " Inquirer", " Console.Table", " CSS"],
     "repoUrl": "https://github.com/greggypc/Bamazon",
     "url": "https://github.com/greggypc/Bamazon",

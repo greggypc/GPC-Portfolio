@@ -110,10 +110,20 @@
   color: #a33a15;
 }
 
+i.fa {
+  /* align-items: center; */
+  padding-right: 3px;
+  /* top: 44px; */
+}
+
 @media (max-width: 1000px) {
   .movie-content {
-    width: 60%;
+    width: 80%;
     max-width: 95%;
+  }
+
+  .color-overlay {
+    background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 15%, #29323c 100%);
   }
 }
 @media (max-width: 800px) {
@@ -136,7 +146,7 @@
   }
 
   .color-overlay {
-    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 25%, #212120 100%);
   }
 
   .movie-content {

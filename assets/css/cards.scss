@@ -136,10 +136,24 @@ $secondary-color: #a33a15;
   color: $secondary-color;
 }
 
+i.fa {
+  /* align-items: center; */
+  padding-right: 3px;
+  /* top: 44px; */
+}
+
 @media (max-width: 1000px) {
   .movie-content {
-    width: 60%;
+    width: 80%;
     max-width: 95%;
+  }
+  .color-overlay {
+    background: linear-gradient(
+      to right,
+      rgba(173, 216, 252, 0.2) 0%,
+      rgba(33, 33, 32, 1) 15%,
+      rgba(41, 50, 60, 1) 100%
+    );
   }
 }
 
@@ -167,7 +181,7 @@ $secondary-color: #a33a15;
     background: linear-gradient(
       to bottom,
       rgba(42, 159, 255, 0.2) 0%,
-      rgba(33, 33, 32, 1) 60%,
+      rgba(33, 33, 32, 1) 25%,
       rgba(33, 33, 32, 1) 100%
     );
   }
