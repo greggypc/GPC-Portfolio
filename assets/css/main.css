@@ -383,17 +383,17 @@ footer p {
 }
 
 @media (max-width: 1120px) {
-  .hero {
+  /* .hero {
     flex-direction: column;
     flex-wrap: wrap;
-  }
+  } */
 
   nav {
     top: 0;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 860px) {
   .logo a {
     font-size: 22px;
     margin: 0;
@@ -414,10 +414,6 @@ footer p {
 
   .showing {
     max-height: 34em;
-  }
-
-  .hide {
-    display: none;
   }
 
   nav ul li {
@@ -442,7 +438,7 @@ footer p {
   }
   .main-image {
     width: 260px;
-    shape-outside: none;
+    /* shape-outside: none; */
   }
 
   h1.main-statement {
@@ -508,5 +504,11 @@ footer p {
   #scroll-home {
     right: 5px;
     bottom: 5px;
+  }
+}
+
+@media (max-width: 660px) {
+  .main-image {
+    shape-outside: none;
   }
 }
