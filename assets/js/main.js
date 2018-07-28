@@ -4,6 +4,7 @@ $(document).ready(function() {
   var projects;
 
   // if (window.XMLHttpRequest) {
+  $.ajaxSetup({ cache: false }); // or iPhones don't get fresh data
   $.ajax({
     url: dataURL,
     method: 'GET',
