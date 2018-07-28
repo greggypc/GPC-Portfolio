@@ -507,8 +507,8 @@ footer p {
   }
 }
 
-@media (max-width: 660px) {
+/* @media (max-width: 660px) {
   .main-image {
     shape-outside: none;
   }
-}
+} */
