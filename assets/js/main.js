@@ -3,32 +3,32 @@ $(document).ready(function() {
   const dataURL = './projects.json';
   var projects;
 
-  if (window.XMLHttpRequest) {
-    $.ajax({
-      url: dataURL,
-      method: 'GET',
-      cache: false,
-      timeout: 15000,
-      async: true,
-      headers: {
-        'cache-control': 'no-cache'
+  // if (window.XMLHttpRequest) {
+  $.ajax({
+    url: dataURL,
+    method: 'GET',
+    cache: false,
+    timeout: 15000,
+    async: true,
+    headers: {
+      'cache-control': 'no-cache'
+    }
+  })
+    .then(data => {
+      console.log(data);
+      projects = data;
+      if (!projects || !projects.length) {
+        console.log(`no json!`);
+
+        displayEmpty();
+      } else {
+        loadProjects();
       }
     })
-      .then(data => {
-        console.log(data);
-        projects = data;
-        if (!projects || !projects.length) {
-          console.log(`no json!`);
-
-          displayEmpty();
-        } else {
-          loadProjects();
-        }
-      })
-      .catch(err => {
-        throw new Error(err.message);
-      });
-  }
+    .catch(err => {
+      throw new Error(err.message);
+    });
+  // }
 
   function loadProjects() {
     console.log('now in function loadProjects' + projects);
