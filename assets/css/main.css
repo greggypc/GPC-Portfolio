@@ -520,8 +520,17 @@ footer p {
 /* ================ Small Screens =================  */
 
 @media (max-width: 480px) {
+  header {
+    height: auto;
+  }
+
   .main-image {
     shape-outside: none;
     margin-top: 550px;
+  }
+
+  .main-image {
+    width: 260px;
+    /* shape-outside: none; */
   }
 }
