@@ -120,6 +120,7 @@ header {
 
 .social {
   margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 .social a {
@@ -386,6 +387,7 @@ footer p {
   filter: 'alpha(opacity=100)';
 }
 
+/* ================ Larger Screens =================  */
 @media (max-width: 1120px) {
   /* .hero {
     flex-direction: column;
@@ -396,6 +398,8 @@ footer p {
     top: 0;
   }
 }
+
+/* ================ Tablet Screens =================  */
 
 @media (max-width: 860px) {
   .logo a {
@@ -437,8 +441,10 @@ footer p {
   }
 
   header {
-    overflow: auto;
+    /* overflow: auto; */
     padding-bottom: 180px;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   .main-image {
     width: 260px;
@@ -510,6 +516,8 @@ footer p {
     bottom: 5px;
   }
 }
+
+/* ================ Small Screens =================  */
 
 @media (max-width: 480px) {
   .main-image {
