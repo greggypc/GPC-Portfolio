@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .movie-card {
   background-color: #000;
   background-image: url(../img/dolo1.png);
@@ -118,12 +112,12 @@ i.fa {
 
 @media (max-width: 1000px) {
   .movie-content {
-    width: 80%;
+    width: 70%;
     max-width: 95%;
   }
 
   .color-overlay {
-    background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 15%, #29323c 100%);
+    background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 25%, #29323c 100%);
   }
 }
 @media (max-width: 800px) {

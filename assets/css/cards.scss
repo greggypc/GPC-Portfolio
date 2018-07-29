@@ -13,11 +13,11 @@ $font-stack-content: 'Montserrat', helvetica, arial, sans-serif;
 $font-stack-header: 'Montserrat', helvetica, arial, sans-serif;
 $secondary-color: #a33a15;
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+// *,
+// *::before,
+// *::after {
+//   box-sizing: inherit;
+// }
 
 // * {
 //   transition: 0.4s;
@@ -144,14 +144,14 @@ i.fa {
 
 @media (max-width: 1000px) {
   .movie-content {
-    width: 80%;
+    width: 70%;
     max-width: 95%;
   }
   .color-overlay {
     background: linear-gradient(
       to right,
       rgba(173, 216, 252, 0.2) 0%,
-      rgba(33, 33, 32, 1) 15%,
+      rgba(33, 33, 32, 1) 25%,
       rgba(41, 50, 60, 1) 100%
     );
   }

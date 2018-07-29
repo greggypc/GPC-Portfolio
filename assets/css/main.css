@@ -184,6 +184,10 @@ nav ul li {
   font-weight: 500;
 }
 
+nav ul li:hover {
+  background-color: #516170;
+}
+
 nav ul li a {
   text-decoration: none;
   color: #e0dfd5;
@@ -442,7 +446,7 @@ footer p {
   }
 
   h1.main-statement {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     font-size: 24px;
   }
 
@@ -507,8 +511,9 @@ footer p {
   }
 }
 
-/* @media (max-width: 660px) {
+@media (max-width: 480px) {
   .main-image {
     shape-outside: none;
+    margin-top: 550px;
   }
-} */
+}
