@@ -20,7 +20,7 @@
   {
     "name": "NPR News Scraper",
     "description":
-      "Scrape the freshest headlines from NPR News. Save, view and leave comments on your favorite headlines. This web scraper app features a Node/Express/MongoDB backend.",
+      "Save, view and leave comments on your favorite headlines. This web scraper app features a Node/Express/MongoDB backend.",
     "tech": [" MongoDB", " Mongoose", " Cheerio", " Express.js", " Node", " Handlebars", " Bootstrap"],
     "repoUrl": "https://github.com/greggypc/scraped",
     "url": "https://gentle-fortress-11669.herokuapp.com/",
