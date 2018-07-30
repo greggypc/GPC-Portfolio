@@ -8,12 +8,8 @@ $(document).ready(function() {
   $.ajax({
     url: dataURL,
     method: 'GET',
-    cache: false,
     timeout: 15000,
-    async: true,
-    headers: {
-      'cache-control': 'no-cache'
-    }
+    async: true
   })
     .then(data => {
       console.log(data);

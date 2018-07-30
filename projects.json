@@ -2,8 +2,8 @@
   {
     "name": "Dolo I",
     "description":
-      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
-    "tech": [" MySQL", " Express.js", " Sequelize", " Bulma"],
+      "Donation Location: A complex database schema, RESTful API, user authentication and intuitive UI come together to help charitable organizations connect with the communities they serve.",
+    "tech": [" MySQL", " Express.js", " Sequelize", " Passport.js", " Bulma"],
     "repoUrl": "https://github.com/greggypc/Dolo-I",
     "url": "http://www.dolo.io/",
     "id": "1"
@@ -11,8 +11,8 @@
   {
     "name": "Dolo II",
     "description":
-      "Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).Group project (Dolo I) refactored as a MVC React.js app w/ MySQL/Sequelize (Dolo II).",
-    "tech": [" MySQL", " Express.js", " Sequelize", " React.js", " JSX", " Bulma"],
+      "Group project (Dolo I) refactored as a MVC React.js app. Web components allow for simple state management and logical site maintenance.",
+    "tech": [" MySQL", " Express.js", " Sequelize", " React.js", " JSX", " React Router", " Auth0", " Bulma"],
     "repoUrl": "https://github.com/greggypc/Dolo",
     "url": "https://github.com/greggypc/Dolo",
     "id": "2"
@@ -20,7 +20,7 @@
   {
     "name": "NPR News Scraper",
     "description":
-      "Scrape the freshest headlines from NPR News. Save, view and leave comments on your favorite headlines.",
+      "Scrape the freshest headlines from NPR News. Save, view and leave comments on your favorite headlines. This web scraper app features a Node/Express/MongoDB backend.",
     "tech": [" MongoDB", " Mongoose", " Cheerio", " Express.js", " Node", " Handlebars", " Bootstrap"],
     "repoUrl": "https://github.com/greggypc/scraped",
     "url": "https://gentle-fortress-11669.herokuapp.com/",
@@ -32,16 +32,16 @@
     "tech": [" React.js", " JSX", " Node.js", " HTML", " CSS"],
     "repoUrl": "https://github.com/greggypc/react-click-game",
     "url": "https://greggypc.github.io/react-click-game/",
-    "id": "3"
+    "id": "4"
   },
   {
     "name": "CLI Shopping Experience",
     "description":
       "This app implements a simple command line based storefront using the npm inquirer package and MySQL database backend.",
-    "tech": [" MySQL", " Node.js", " Inquirer", " Console.Table", " CSS"],
+    "tech": [" MySQL", " Node.js", " Inquirer", " Console.Table"],
     "repoUrl": "https://github.com/greggypc/Bamazon",
     "url": "https://github.com/greggypc/Bamazon",
-    "id": "3"
+    "id": "5"
   },
   {
     "name": "Notify",
@@ -49,6 +49,6 @@
     "tech": [" AJAX", " jQuery", " SongKick API", " Firebase", " Bootstrap", " Handlebars"],
     "repoUrl": "https://github.com/greggypc/notify",
     "url": "https://shapyro.github.io/notify",
-    "id": "3"
+    "id": "6"
   }
 ]
