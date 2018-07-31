@@ -297,20 +297,25 @@
             me right here.
           </h3>
 
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST" action="/index.html#gotoHome" netlify-honeypot="bot-field" netlify>
+            <p style="display:none;">
+              <label>Don’t fill this out:
+                <input name="bot-field">
+              </label>
+            </p>
             <p>
               <label for="name">Name
-                <input type="text" id="name" placeholder="Your name..." />
+                <input type="text" id="name" placeholder="Your name..." required />
               </label>
             </p>
             <p>
               <label for="email">Email
-                <input type="text" id="email" placeholder="Your email..." />
+                <input type="text" id="email" placeholder="Your email..." required />
               </label>
             </p>
             <p>
               <label for="message">Message
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..." required></textarea>
               </label>
             </p>
             <p>
