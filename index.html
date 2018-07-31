@@ -308,22 +308,25 @@
 
           <form name="contact" method="POST" action="/index.html#gotoHome" netlify-honeypot="bot-field" netlify>
             <p style="display:none;">
-              <label>Don’t fill this out:
+              <label>
                 <input name="bot-field">
               </label>
             </p>
             <p>
               <label for="name">Name
+                <span class="tiny-grey"> (Required)</span>
                 <input type="text" id="name" placeholder="Your name..." required />
               </label>
             </p>
             <p>
               <label for="email">Email
+                <span class="tiny-grey"> (Required)</span>
                 <input type="text" id="email" placeholder="Your email..." required />
               </label>
             </p>
             <p>
               <label for="message">Message
+                <span class="tiny-grey"> (Required)</span>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..." required></textarea>
               </label>
             </p>
