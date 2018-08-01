@@ -42,7 +42,7 @@ $(document).ready(function() {
   function createCard(project) {
     let newProject = `
     <div class="proj-card">
-      <div class="color-overlay">
+      <div class="proj-color-overlay">
         <div class="proj-content">
           <div class="proj-header">
             <h1 class="proj-title">${project.name}</h1>

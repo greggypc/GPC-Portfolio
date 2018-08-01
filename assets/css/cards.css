@@ -1,0 +1,147 @@
+.proj-card {
+  background-color: #000;
+  background-image: url(../img/dolo1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 75%;
+  max-width: 1200px;
+  height: 300px;
+  display: block;
+  margin: 5vh auto;
+  border-radius: 8px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.proj-card:nth-child(2) {
+  background-image: url(../img/dolo2.png);
+}
+
+.proj-card:nth-child(3) {
+  background-image: url(../img/scraper.png);
+}
+
+.proj-card:nth-child(4) {
+  background-image: url(../img/transformers.png);
+}
+
+.proj-card:nth-child(5) {
+  background-image: url(../img/marketplace-cli.png);
+}
+
+.proj-card:nth-child(6) {
+  background-image: url(../img/notify.png);
+}
+
+.proj-color-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 30%, #29323c 100%);
+  background-blend-mode: multiply;
+}
+
+.proj-content {
+  width: 65%;
+  display: block;
+  position: relative;
+  float: right;
+  padding-right: 1em;
+}
+.proj-content .proj-title {
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 400;
+  color: #e0dfd5;
+  margin-bottom: 0.25em;
+  opacity: 0.85;
+}
+.proj-content .proj-info {
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  color: #a33a15;
+  line-height: 1;
+  margin: 0;
+  font-weight: 700;
+}
+.proj-content .proj-header {
+  margin-bottom: 1.5em;
+}
+.proj-content .proj-desc {
+  font-weight: 300;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  margin-bottom: 2em;
+  color: #e0dfd5;
+}
+
+.btn {
+  padding: 0.6em 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #e0dfd5;
+  opacity: 0.75;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 3px solid #e0dfd5;
+}
+
+.btn::before {
+  padding: 5px;
+}
+
+.btn-outline:hover {
+  border-color: #a33a15;
+  color: #a33a15;
+}
+
+i.fa {
+  /* align-items: center; */
+  padding-right: 3px;
+  /* top: 44px; */
+}
+
+@media (max-width: 1000px) {
+  .proj-content {
+    width: 70%;
+    max-width: 95%;
+  }
+
+  .color-overlay {
+    background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 25%, #29323c 100%);
+  }
+}
+@media (max-width: 800px) {
+  .proj-card {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .proj-card,
+.proj-card:nth-child(2),
+.proj-card:nth-child(3),
+.proj-card:nth-child(4),
+.proj-card:nth-child(5),
+.proj-card:nth-child(6),
+.proj-card:nth-child(7) {
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .color-overlay {
+    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 25%, #212120 100%);
+  }
+
+  .proj-content {
+    margin-top: 4.2em;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=cards.css.map */

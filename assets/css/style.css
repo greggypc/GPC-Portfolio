@@ -48,7 +48,8 @@ header {
   display: flex;
   justify-content: center;
 }
-header .main-image {
+
+.main-image {
   border-radius: 50%;
   float: left;
   shape-outside: circle();
@@ -56,9 +57,11 @@ header .main-image {
   border: 9px solid #a33a15;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
 }
-header .spin {
+
+.spin {
   animation: spin 0.3s;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -67,10 +70,11 @@ header .spin {
     transform: rotate(359.999deg);
   }
 }
-header .small-text {
+.small-text {
   text-align: justify;
 }
-header .hero {
+
+.hero {
   align-content: center;
   width: 80%;
   height: 100vh;
@@ -78,38 +82,45 @@ header .hero {
   justify-content: center;
   align-items: center;
 }
-header .main-statement {
+
+.main-statement {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-header .main-description-header {
+
+.main-description-header {
   color: #e0dfd5;
   text-shadow: 3px 3px 3px #29323c;
   letter-spacing: 0.5px;
   padding-right: 1px;
   font-size: 22px;
 }
-header .main-description-text {
+
+.main-description-text {
   color: #e0dfd5;
   font-size: 18px;
   text-align: justify;
 }
-header .social {
+
+.social {
   margin-top: 20px;
   margin-bottom: 25px;
 }
-header .social .social a {
+
+.social a {
   margin-top: 20px;
   padding: 0 10px 0 10px;
   color: #e0dfd5;
 }
-header .social .social a:hover {
+
+.social a:hover {
   transition: 0.2s;
   color: #a33a15;
 }
-header .logo a {
+
+.logo a {
   font-family: "Roboto Slab", sans-serif;
   letter-spacing: 1px;
   text-decoration: none;
@@ -122,17 +133,20 @@ header .logo a {
   font-size: 30px;
   text-shadow: 3px 3px 3px #29323c;
 }
-header .logo a.scroll {
+
+.logo a.scroll {
   color: #e0dfd5;
 }
-header nav {
+
+nav {
   position: fixed;
   width: 100%;
   line-height: 50px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   z-index: 1000;
 }
-header nav ul {
+
+nav ul {
   line-height: 50px;
   list-style: none;
   background: rgba(0, 0, 0, 0);
@@ -144,34 +158,41 @@ header nav ul {
   padding-right: 40px;
   transition: 1s;
 }
-header nav.black ul {
+
+nav.black ul {
   background: #29323c;
 }
-header nav ul li {
+
+nav ul li {
   display: inline-block;
   list-style: none;
   padding: 16px 20px;
   font-size: 18px;
   font-weight: 500;
 }
-header nav ul li:hover {
+
+nav ul li:hover {
   background-color: #516170;
 }
-header nav ul li a {
+
+nav ul li a {
   text-decoration: none;
   color: #e0dfd5;
   font-weight: 400;
   text-shadow: 2px 2px 2px #29323c;
   padding: 10px 10px 10px 10px;
 }
-header nav.scroll ul li a {
+
+nav.scroll ul li a {
   color: #e0dfd5;
 }
-header nav.scroll ul li a:hover {
+
+nav.scroll ul li a:hover {
   transition: 0.2s;
   color: #a33a15;
 }
-header .menu-icon {
+
+.menu-icon {
   line-height: 50px;
   background: #29323c;
   text-align: right;
@@ -186,149 +207,6 @@ header .menu-icon {
   margin: 4em auto;
 }
 
-.proj-card {
-  background-color: #000;
-  background-image: url(../img/dolo1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 75%;
-  max-width: 1200px;
-  height: 300px;
-  display: block;
-  margin: 5vh auto;
-  border-radius: 8px;
-  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
-}
-
-.proj-card:nth-child(2) {
-  background-image: url(../img/dolo2.png);
-}
-
-.proj-card:nth-child(3) {
-  background-image: url(../img/scraper.png);
-}
-
-.proj-card:nth-child(4) {
-  background-image: url(../img/transformers.png);
-}
-
-.proj-card:nth-child(5) {
-  background-image: url(../img/marketplace-cli.png);
-}
-
-.proj-card:nth-child(6) {
-  background-image: url(../img/notify.png);
-}
-
-.color-overlay {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 30%, #29323c 100%);
-  background-blend-mode: multiply;
-}
-
-.proj-content {
-  width: 65%;
-  display: block;
-  position: relative;
-  float: right;
-  padding-right: 1em;
-}
-.proj-content .proj-title {
-  font-family: "Montserrat", helvetica, arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1;
-  font-weight: 400;
-  color: #e0dfd5;
-  margin-bottom: 0.25em;
-  opacity: 0.85;
-}
-.proj-content .proj-info {
-  font-family: "Montserrat", helvetica, arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.8em;
-  color: #a33a15;
-  line-height: 1;
-  margin: 0;
-  font-weight: 700;
-}
-.proj-content .proj-header {
-  margin-bottom: 1.5em;
-}
-.proj-content .proj-desc {
-  font-weight: 300;
-  font-family: "Montserrat", helvetica, arial, sans-serif;
-  margin-bottom: 2em;
-  color: #e0dfd5;
-}
-
-.btn {
-  padding: 0.6em 1em;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #e0dfd5;
-  opacity: 0.75;
-  font-family: "Montserrat", helvetica, arial, sans-serif;
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 3px solid #e0dfd5;
-}
-
-.btn::before {
-  padding: 5px;
-}
-
-.btn-outline:hover {
-  border-color: #a33a15;
-  color: #a33a15;
-}
-
-i.fa {
-  padding-right: 3px;
-}
-
-@media (max-width: 1000px) {
-  .movie-content {
-    width: 70%;
-    max-width: 95%;
-  }
-
-  .color-overlay {
-    background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 25%, #29323c 100%);
-  }
-}
-@media (max-width: 800px) {
-  .movie-card {
-    width: 95%;
-    max-width: 95%;
-  }
-}
-@media (max-width: 600px) {
-  .movie-card,
-.movie-card:nth-child(2),
-.movie-card:nth-child(3),
-.movie-card:nth-child(4),
-.movie-card:nth-child(5),
-.movie-card:nth-child(6),
-.movie-card:nth-child(7) {
-    background-position: 50% 0%;
-    background-size: cover;
-    height: 400px;
-  }
-
-  .color-overlay {
-    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 25%, #212120 100%);
-  }
-
-  .movie-content {
-    margin-top: 4.2em;
-    width: 90%;
-  }
-}
 .resume-container {
   background-color: #fff;
   padding: 40px 50px 70px 50px;
