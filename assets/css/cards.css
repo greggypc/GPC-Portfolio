@@ -111,7 +111,7 @@ i.fa {
     max-width: 95%;
   }
 
-  .color-overlay {
+  .proj-color-overlay {
     background: linear-gradient(to right, rgba(173, 216, 252, 0.2) 0%, #212120 25%, #29323c 100%);
   }
 }
@@ -131,10 +131,10 @@ i.fa {
 .proj-card:nth-child(7) {
     background-position: 50% 0%;
     background-size: cover;
-    height: 400px;
+    height: 420px;
   }
 
-  .color-overlay {
+  .proj-color-overlay {
     background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 25%, #212120 100%);
   }
 
