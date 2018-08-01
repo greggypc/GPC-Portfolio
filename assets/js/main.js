@@ -41,14 +41,14 @@ $(document).ready(function() {
 
   function createCard(project) {
     let newProject = `
-    <div class="movie-card">
+    <div class="proj-card">
       <div class="color-overlay">
-        <div class="movie-content">
-          <div class="movie-header">
-            <h1 class="movie-title">${project.name}</h1>
-            <h4 class="movie-info">Tech: ${project.tech}</h4>
+        <div class="proj-content">
+          <div class="proj-header">
+            <h1 class="proj-title">${project.name}</h1>
+            <h4 class="proj-info">Tech: ${project.tech}</h4>
           </div>
-          <p class="movie-desc">${project.description}</p>
+          <p class="proj-desc">${project.description}</p>
           <a class="btn btn-outline" href="${
             project.repoUrl
           }" target="_blank"><i style="font-size:24px" class="fa">&#xf09b;</i>Repo</a>
