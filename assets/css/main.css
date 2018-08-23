@@ -52,12 +52,18 @@ h3 {
   font-family: 'Roboto Slab', serif;
 }
 
+#gotoHome {
+  overflow: auto;
+}
+
 header {
   width: 100%;
   height: 100vh;
   background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
   display: flex;
   justify-content: center;
+  flex-grow: 1;
+  overflow: auto;
 }
 
 .main-image {
@@ -219,10 +225,6 @@ nav.scroll ul li a:hover {
 .content {
   width: 80%;
   margin: 4em auto;
-  /* font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-  font-weight: 300; */
 }
 
 .resume-container {
@@ -230,9 +232,6 @@ nav.scroll ul li a:hover {
   padding: 40px 50px 70px 50px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
   font-family: 'Merriweather', serif;
-  /* display: flex;
-  justify-content: center;
-  flex-wrap: wrap; */
 }
 
 .resume-top {
@@ -286,14 +285,7 @@ nav.scroll ul li a:hover {
   padding: 3px;
 }
 
-/* .vertical {
-  border-left: 3px solid #29323c;
-  margin: 0 10px 0 4px;
-  transform: rotate(45deg);
-} */
-
 .contact-container {
-  /* height: 70vh; */
   background: linear-gradient(to top right, #29323c, rgb(98, 116, 134));
   padding: 45px;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
@@ -303,7 +295,6 @@ nav.scroll ul li a:hover {
 }
 
 .contact-body {
-  /* justify-content: flex-start; */
   padding: 45px;
   background-color: #e0dfd5;
   box-shadow: 9px 8px 34px -7px rgba(0, 0, 0, 0.35);
@@ -431,7 +422,6 @@ footer p {
   }
 
   nav ul li {
-    /* box-sizing: border-box; */
     width: 100%;
     padding: 24px;
     color: #fff;
@@ -442,23 +432,26 @@ footer p {
     color: #fff;
   }
 
+  a:hover {
+    transition: none;
+    color: #a33a15;
+  }
+
   .menu-icon {
     display: block;
   }
 
   header {
     /* overflow: auto; */
-    padding-bottom: 180px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    /* padding-bottom: 180px; */
+    /* overflow-x: hidden;
+    overflow-y: auto; */
   }
   .main-image {
     width: 260px;
-    /* shape-outside: none; */
   }
 
   h1.main-statement {
-    /* justify-content: flex-start; */
     font-size: 24px;
   }
 
@@ -468,7 +461,6 @@ footer p {
 
   .content {
     width: 95%;
-    /* justify-content: flex-start; */
   }
 
   .flex2 {
@@ -527,16 +519,12 @@ footer p {
 
 @media (max-width: 480px) {
   header {
-    height: auto;
+    display: inline-flex;
   }
 
   .main-image {
     shape-outside: none;
     margin-top: 550px;
-  }
-
-  .main-image {
     width: 260px;
-    /* shape-outside: none; */
   }
 }
