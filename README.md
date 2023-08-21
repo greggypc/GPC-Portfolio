@@ -2,11 +2,16 @@
 
 ## Personal portfolio site for Greg P Church
 
-## Full Stack JavaScript Developer / Digital Marketer
+## Architect/Developer/Digital Marketer
 
-DEVELOPER / DIGITAL MARKETER - Full Stack JavaScript Developer with strong expertise in Brand Management via Cross-Platform Marketing.  
-Development: Javascript / ES6 / jQuery / React / Redux / HTML5 / CSS3 / SASS / Bootstrap / Bulma / Git / MVC / MERN Stack / Node / Express / MySQL / MongoDB / RESTful API / AJAX / UX/UI design and development with focus on information architecture, prototyping and ultimate usability.
-Marketing: Proven experience in developing and executing campaigns through multiple channels with effective use of analytics to drive conversions. Deep experience in understanding market, brand and voice and to determine the needs of internal stakeholders as well as external prospects.
+Enterprise CMS Administration / HTML / CSS / JavaScript / Git / React / Content Modelling and Architecture / 
+Sitecore 9.2 and 10.3 CMS / Sitecore Certified Platform Associate Developer / Helix / 
+Unicorn / Sitecore Workflow, Roles and Permissions / Sitecore xDB / Personalization / SEO / 
+Google Analytics (GA4) / Google Tag Manager / Google Ads / Google Search Console / Adobe CC / Photoshop / Illustrator.
+UX is always top of mind with focus on information architecture, and ultimate usability. Proven
+experience in developing and executing marketing campaigns through multiple channels with effective use of
+analytics to drive conversions. Deep experience in understanding market, brand and voice and to determine the
+needs of internal stakeholders as well as external prospects.
 
 ## Technologies Used
 

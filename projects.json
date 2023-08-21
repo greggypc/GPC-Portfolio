@@ -1,17 +1,17 @@
 [
   {
-    "name": "Dolo I",
+    "name": "Faye + Walker Architecture",
     "description":
-      "Donation Location: A complex database schema, RESTful API, user authentication and intuitive UI come together to help charitable organizations connect with the communities they serve.",
-    "tech": [" MySQL", " Express.js", " Sequelize", " Passport.js", " Bulma"],
-    "repoUrl": "https://github.com/greggypc/Dolo-I",
-    "url": "http://www.dolo.io/",
+      "Faye + Walker is an emerging Austin based multidisciplinary firm working primarily in the medium of Architecture.",
+    "tech": [" Gatsby", " GraphQL", " React.js", " Netlify"],
+    "repoUrl": "https://github.com/greggypc/fw",
+    "url": "https://www.fayeandwalker.com/",
     "id": "1"
   },
   {
-    "name": "Dolo II",
+    "name": "Dolo",
     "description":
-      "Group project (Dolo I) refactored as a MVC React.js app. Web components allow for simple state management and logical site maintenance.",
+      "Donation Location: A complex database schema, RESTful API, user authentication and intuitive UI come together to help charitable organizations connect with the communities they serve. Web components allow for simple state management and intuitive site maintenance.",
     "tech": [" MySQL", " Express.js", " Sequelize", " React.js", " JSX", " React Router", " Auth0", " Bulma"],
     "repoUrl": "https://github.com/greggypc/Dolo",
     "url": "https://github.com/greggypc/Dolo",
